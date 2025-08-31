@@ -1,5 +1,4 @@
 import './App.css'
-import './services/weather'
 
 function App() {
   return (
