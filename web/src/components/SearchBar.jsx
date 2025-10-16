@@ -84,7 +84,7 @@ const SearchBar = () => {
     //   )}
     // </div>
     <>
-      <div className="flex border-[1px] border-solid border-[#65676b] dark:border-[#b0b3b8] rounded-[20px] px-4">
+      <div className="flex border border-solid border-[#65676b] dark:border-[#b0b3b8] rounded-[20px] px-4">
         <div className="h-10 flex items-center justify-center text-xl pe-4">
           <BsSearch />
         </div>

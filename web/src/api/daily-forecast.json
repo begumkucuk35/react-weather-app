@@ -1,0 +1,829 @@
+{
+  "lat": "37.81021N",
+  "lon": "122.42282W",
+  "elevation": 0,
+  "units": "us",
+  "daily": {
+    "data": [
+      {
+        "day": "2022-02-18",
+        "weather": "mostly_cloudy",
+        "icon": 5,
+        "summary": "Cloudy, fewer clouds in the afternoon. Temperature 52/60 °F.",
+        "predictability": 1,
+        "temperature": 55.6,
+        "temperature_min": 51.5,
+        "temperature_max": 59.6,
+        "feels_like": 52,
+        "feels_like_min": 46.1,
+        "feels_like_max": 58.3,
+        "wind_chill": 54.2,
+        "wind_chill_min": 48.8,
+        "wind_chill_max": 59.6,
+        "dew_point": 43.9,
+        "dew_point_min": 40.3,
+        "dew_point_max": 47.9,
+        "wind": {
+          "speed": 4,
+          "gusts": 7.6,
+          "dir": "N",
+          "angle": 356
+        },
+        "cloud_cover": 65,
+        "pressure": 30.24,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "probability": {
+          "precipitation": 0,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 292.91,
+        "humidity": 68,
+        "visibility": 15
+      },
+      {
+        "day": "2022-02-19",
+        "weather": "mostly_sunny",
+        "icon": 3,
+        "summary": "Fog in the morning, sunny later. Temperature 52/59 °F.",
+        "predictability": 5,
+        "temperature": 55.6,
+        "temperature_min": 51.5,
+        "temperature_max": 59.2,
+        "feels_like": 55.1,
+        "feels_like_min": 45.7,
+        "feels_like_max": 63.7,
+        "wind_chill": 54.7,
+        "wind_chill_min": 46.1,
+        "wind_chill_max": 63.7,
+        "dew_point": 46.1,
+        "dew_point_min": 43.4,
+        "dew_point_max": 47.9,
+        "wind": {
+          "speed": 5.5,
+          "gusts": 11.7,
+          "dir": "NNW",
+          "angle": 342
+        },
+        "cloud_cover": 11,
+        "pressure": 30.12,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "probability": {
+          "precipitation": 0,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 295.55,
+        "humidity": 71,
+        "visibility": 15
+      },
+      {
+        "day": "2022-02-20",
+        "weather": "mostly_cloudy",
+        "icon": 5,
+        "summary": "Cloudy changing to partly sunny by evening. Temperature 49/54 °F.",
+        "predictability": 3,
+        "temperature": 52.4,
+        "temperature_min": 49.3,
+        "temperature_max": 54.2,
+        "feels_like": 44.8,
+        "feels_like_min": 37.6,
+        "feels_like_max": 48.8,
+        "wind_chill": 47.9,
+        "wind_chill_min": 42.1,
+        "wind_chill_max": 52,
+        "dew_point": 45.2,
+        "dew_point_min": 41.2,
+        "dew_point_max": 47.9,
+        "wind": {
+          "speed": 11.3,
+          "gusts": 31,
+          "dir": "W",
+          "angle": 271
+        },
+        "cloud_cover": 76,
+        "pressure": 29.99,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "probability": {
+          "precipitation": 0,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 327.72,
+        "humidity": 77,
+        "visibility": 15
+      },
+      {
+        "day": "2022-02-21",
+        "weather": "sunny",
+        "icon": 2,
+        "summary": "Sunny. Temperature 46/54 °F. Wind from NW in the afternoon.",
+        "predictability": 3,
+        "temperature": 49.7,
+        "temperature_min": 45.7,
+        "temperature_max": 54.2,
+        "feels_like": 42.5,
+        "feels_like_min": 38.5,
+        "feels_like_max": 47.5,
+        "wind_chill": 45.2,
+        "wind_chill_min": 41.2,
+        "wind_chill_max": 51.1,
+        "dew_point": 37.1,
+        "dew_point_min": 34,
+        "dew_point_max": 39.8,
+        "wind": {
+          "speed": 13.5,
+          "gusts": 32.8,
+          "dir": "NW",
+          "angle": 311
+        },
+        "cloud_cover": 1,
+        "pressure": 30,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "probability": {
+          "precipitation": 0,
+          "storm": 0,
+          "freeze": 7
+        },
+        "ozone": 356.86,
+        "humidity": 61,
+        "visibility": 15
+      },
+      {
+        "day": "2022-02-22",
+        "weather": "mostly_sunny",
+        "icon": 3,
+        "summary": "Partly sunny, fewer clouds in the evening. Temperature 47/51 °F. Wind from NW.",
+        "predictability": 3,
+        "temperature": 49.7,
+        "temperature_min": 47.5,
+        "temperature_max": 51.1,
+        "feels_like": 39.8,
+        "feels_like_min": 35.3,
+        "feels_like_max": 42.5,
+        "wind_chill": 44.3,
+        "wind_chill_min": 39.4,
+        "wind_chill_max": 47,
+        "dew_point": 32.6,
+        "dew_point_min": 28.6,
+        "dew_point_max": 38,
+        "wind": {
+          "speed": 15.8,
+          "gusts": 35.6,
+          "dir": "NW",
+          "angle": 307
+        },
+        "cloud_cover": 16,
+        "pressure": 29.98,
+        "precipitation": {
+          "total": 0.004,
+          "type": "none"
+        },
+        "probability": {
+          "precipitation": 6,
+          "storm": 0,
+          "freeze": 4
+        },
+        "ozone": 368.51,
+        "humidity": 51,
+        "visibility": 14.76
+      },
+      {
+        "day": "2022-02-23",
+        "weather": "sunny",
+        "icon": 2,
+        "summary": "Sunny. Temperature 45/55 °F.",
+        "predictability": 3,
+        "temperature": 50.2,
+        "temperature_min": 45.2,
+        "temperature_max": 55.1,
+        "feels_like": 47,
+        "feels_like_min": 43.9,
+        "feels_like_max": 51.5,
+        "wind_chill": 47.9,
+        "wind_chill_min": 43.4,
+        "wind_chill_max": 53.3,
+        "dew_point": 37.1,
+        "dew_point_min": 33.1,
+        "dew_point_max": 41.6,
+        "wind": {
+          "speed": 8.7,
+          "gusts": 17.1,
+          "dir": "NNW",
+          "angle": 334
+        },
+        "cloud_cover": 1,
+        "pressure": 30.25,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "probability": {
+          "precipitation": 0,
+          "storm": 0,
+          "freeze": 5
+        },
+        "ozone": 328.26,
+        "humidity": 58,
+        "visibility": 15
+      },
+      {
+        "day": "2022-02-24",
+        "weather": "partly_sunny",
+        "icon": 4,
+        "summary": "Partly sunny, more clouds in the evening. Temperature 47/53 °F.",
+        "predictability": 3,
+        "temperature": 50.6,
+        "temperature_min": 46.6,
+        "temperature_max": 53.3,
+        "feels_like": 47.9,
+        "feels_like_min": 44.8,
+        "feels_like_max": 51.5,
+        "wind_chill": 49.3,
+        "wind_chill_min": 46.6,
+        "wind_chill_max": 53.3,
+        "dew_point": 41.2,
+        "dew_point_min": 38,
+        "dew_point_max": 43.4,
+        "wind": {
+          "speed": 6.4,
+          "gusts": 19.7,
+          "dir": "NNW",
+          "angle": 348
+        },
+        "cloud_cover": 40,
+        "pressure": 30.29,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "probability": {
+          "precipitation": 0,
+          "storm": 0,
+          "freeze": 3
+        },
+        "ozone": 344.62,
+        "humidity": 67,
+        "visibility": 15
+      },
+      {
+        "day": "2022-02-25",
+        "weather": "partly_sunny",
+        "icon": 4,
+        "summary": "Temperature 49/54 °F.",
+        "predictability": 4,
+        "temperature": 51.5,
+        "temperature_min": 48.8,
+        "temperature_max": 53.8,
+        "feels_like": 46.1,
+        "feels_like_min": 44.3,
+        "feels_like_max": 48.4,
+        "wind_chill": 48.8,
+        "wind_chill_min": 47,
+        "wind_chill_max": 51.1,
+        "dew_point": 32.6,
+        "dew_point_min": 29.9,
+        "dew_point_max": 35.3,
+        "wind": {
+          "speed": 7.4,
+          "gusts": 11.2,
+          "dir": "NNW",
+          "angle": 334
+        },
+        "cloud_cover": 32,
+        "pressure": 30.24,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "probability": {
+          "precipitation": 0,
+          "storm": 0,
+          "freeze": 2
+        },
+        "ozone": 350.49,
+        "humidity": 48,
+        "visibility": 14.98
+      },
+      {
+        "day": "2022-02-26",
+        "weather": "partly_sunny",
+        "icon": 4,
+        "summary": "Temperature 52/56 °F.",
+        "predictability": 4,
+        "temperature": 54.2,
+        "temperature_min": 51.5,
+        "temperature_max": 56.5,
+        "feels_like": 50.6,
+        "feels_like_min": 47.9,
+        "feels_like_max": 52.9,
+        "wind_chill": 52.4,
+        "wind_chill_min": 49.7,
+        "wind_chill_max": 55.6,
+        "dew_point": 37.1,
+        "dew_point_min": 36.2,
+        "dew_point_max": 38.5,
+        "wind": {
+          "speed": 5.3,
+          "gusts": 9.1,
+          "dir": "NNW",
+          "angle": 339
+        },
+        "cloud_cover": 44,
+        "pressure": 30.2,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "probability": {
+          "precipitation": 3,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 328.05,
+        "humidity": 54,
+        "visibility": 14.98
+      },
+      {
+        "day": "2022-02-27",
+        "weather": "mostly_cloudy",
+        "icon": 5,
+        "summary": "Temperature 54/57 °F.",
+        "predictability": 4,
+        "temperature": 55.1,
+        "temperature_min": 53.8,
+        "temperature_max": 56.9,
+        "feels_like": 53.3,
+        "feels_like_min": 52,
+        "feels_like_max": 54.2,
+        "wind_chill": 55.1,
+        "wind_chill_min": 52.9,
+        "wind_chill_max": 56.9,
+        "dew_point": 43,
+        "dew_point_min": 40.7,
+        "dew_point_max": 45.2,
+        "wind": {
+          "speed": 4.5,
+          "gusts": 9.1,
+          "dir": "WSW",
+          "angle": 249
+        },
+        "cloud_cover": 59,
+        "pressure": 30.21,
+        "precipitation": {
+          "total": 0.003,
+          "type": "rain"
+        },
+        "probability": {
+          "precipitation": 22,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 315.11,
+        "humidity": 64,
+        "visibility": 14.81
+      },
+      {
+        "day": "2022-02-28",
+        "weather": "rain_shower",
+        "icon": 13,
+        "summary": "Temperature 55/57 °F.",
+        "predictability": 4,
+        "temperature": 56,
+        "temperature_min": 54.7,
+        "temperature_max": 57.4,
+        "feels_like": 51.5,
+        "feels_like_min": 51.1,
+        "feels_like_max": 52,
+        "wind_chill": 54.2,
+        "wind_chill_min": 53.8,
+        "wind_chill_max": 54.7,
+        "dew_point": 43.4,
+        "dew_point_min": 43.4,
+        "dew_point_max": 43.9,
+        "wind": {
+          "speed": 7.9,
+          "gusts": 14.6,
+          "dir": "NW",
+          "angle": 305
+        },
+        "cloud_cover": 56,
+        "pressure": 30.2,
+        "precipitation": {
+          "total": 0.01,
+          "type": "rain"
+        },
+        "probability": {
+          "precipitation": 33,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 319.9,
+        "humidity": 64,
+        "visibility": 14.98
+      },
+      {
+        "day": "2022-03-01",
+        "weather": "rain_shower",
+        "icon": 13,
+        "summary": "Temperature 56/59 °F.",
+        "predictability": 4,
+        "temperature": 56.9,
+        "temperature_min": 55.6,
+        "temperature_max": 58.7,
+        "feels_like": 54.2,
+        "feels_like_min": 53.3,
+        "feels_like_max": 55.6,
+        "wind_chill": 56.9,
+        "wind_chill_min": 56.5,
+        "wind_chill_max": 56.9,
+        "dew_point": 43.4,
+        "dew_point_min": 43,
+        "dew_point_max": 44.3,
+        "wind": {
+          "speed": 5.8,
+          "gusts": 18.8,
+          "dir": "WNW",
+          "angle": 295
+        },
+        "cloud_cover": 47,
+        "pressure": 30.13,
+        "precipitation": {
+          "total": 0.01,
+          "type": "rain"
+        },
+        "probability": {
+          "precipitation": 28,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 318.8,
+        "humidity": 61,
+        "visibility": 14.58
+      },
+      {
+        "day": "2022-03-02",
+        "weather": "rain_shower",
+        "icon": 13,
+        "summary": "Temperature 54/57 °F.",
+        "predictability": 4,
+        "temperature": 55.6,
+        "temperature_min": 54.2,
+        "temperature_max": 56.9,
+        "feels_like": 52.9,
+        "feels_like_min": 52.4,
+        "feels_like_max": 53.3,
+        "wind_chill": 54.7,
+        "wind_chill_min": 54.2,
+        "wind_chill_max": 55.1,
+        "dew_point": 41.6,
+        "dew_point_min": 40.7,
+        "dew_point_max": 42.5,
+        "wind": {
+          "speed": 5.8,
+          "gusts": 20.3,
+          "dir": "WNW",
+          "angle": 292
+        },
+        "cloud_cover": 40,
+        "pressure": 30.05,
+        "precipitation": {
+          "total": 0.04,
+          "type": "rain"
+        },
+        "probability": {
+          "precipitation": 81,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 344.36,
+        "humidity": 61,
+        "visibility": 13.53
+      },
+      {
+        "day": "2022-03-03",
+        "weather": "rain_shower",
+        "icon": 13,
+        "summary": "Temperature 54/57 °F.",
+        "predictability": 4,
+        "temperature": 56,
+        "temperature_min": 54.2,
+        "temperature_max": 57.4,
+        "feels_like": 53.3,
+        "feels_like_min": 52.9,
+        "feels_like_max": 54.2,
+        "wind_chill": 54.2,
+        "wind_chill_min": 54.2,
+        "wind_chill_max": 54.7,
+        "dew_point": 41.6,
+        "dew_point_min": 41.2,
+        "dew_point_max": 42.1,
+        "wind": {
+          "speed": 6,
+          "gusts": 15.6,
+          "dir": "W",
+          "angle": 273
+        },
+        "cloud_cover": 30,
+        "pressure": 30.07,
+        "precipitation": {
+          "total": 0.03,
+          "type": "rain"
+        },
+        "probability": {
+          "precipitation": 69,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 339.3,
+        "humidity": 60,
+        "visibility": 14.34
+      },
+      {
+        "day": "2022-03-04",
+        "weather": "rain_shower",
+        "icon": 13,
+        "summary": "Temperature 54/56 °F.",
+        "predictability": 4,
+        "temperature": 55.1,
+        "temperature_min": 54.2,
+        "temperature_max": 56,
+        "feels_like": 53.3,
+        "feels_like_min": 52.4,
+        "feels_like_max": 54.2,
+        "wind_chill": 55.1,
+        "wind_chill_min": 54.2,
+        "wind_chill_max": 56,
+        "dew_point": 41.2,
+        "dew_point_min": 40.7,
+        "dew_point_max": 41.6,
+        "wind": {
+          "speed": 4.7,
+          "gusts": 11.6,
+          "dir": "WNW",
+          "angle": 294
+        },
+        "cloud_cover": 42,
+        "pressure": 30.13,
+        "precipitation": {
+          "total": 0.01,
+          "type": "rain"
+        },
+        "probability": {
+          "precipitation": 42,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 342.03,
+        "humidity": 60,
+        "visibility": 14.72
+      },
+      {
+        "day": "2022-03-05",
+        "weather": "mostly_cloudy",
+        "icon": 5,
+        "summary": "Temperature 53/56 °F.",
+        "predictability": 4,
+        "temperature": 55.1,
+        "temperature_min": 53.3,
+        "temperature_max": 56.5,
+        "feels_like": 51.5,
+        "feels_like_min": 51.5,
+        "feels_like_max": 52,
+        "wind_chill": 54.2,
+        "wind_chill_min": 54.2,
+        "wind_chill_max": 54.7,
+        "dew_point": 41.2,
+        "dew_point_min": 38.9,
+        "dew_point_max": 43.4,
+        "wind": {
+          "speed": 5.3,
+          "gusts": 15,
+          "dir": "NW",
+          "angle": 305
+        },
+        "cloud_cover": 60,
+        "pressure": 30.11,
+        "precipitation": {
+          "total": 0.001,
+          "type": "rain"
+        },
+        "probability": {
+          "precipitation": 9,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 338.02,
+        "humidity": 60,
+        "visibility": 14.89
+      },
+      {
+        "day": "2022-03-06",
+        "weather": "rain_shower",
+        "icon": 13,
+        "summary": "Temperature 53/55 °F.",
+        "predictability": 4,
+        "temperature": 54.2,
+        "temperature_min": 53.3,
+        "temperature_max": 55.1,
+        "feels_like": 52.4,
+        "feels_like_min": 51.5,
+        "feels_like_max": 53.3,
+        "wind_chill": 54.7,
+        "wind_chill_min": 53.3,
+        "wind_chill_max": 56,
+        "dew_point": 39.8,
+        "dew_point_min": 38.5,
+        "dew_point_max": 40.7,
+        "wind": {
+          "speed": 4.2,
+          "gusts": 11.9,
+          "dir": "WNW",
+          "angle": 292
+        },
+        "cloud_cover": 42,
+        "pressure": 30.08,
+        "precipitation": {
+          "total": 0.03,
+          "type": "rain"
+        },
+        "probability": {
+          "precipitation": 72,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 348.26,
+        "humidity": 58,
+        "visibility": 14.66
+      },
+      {
+        "day": "2022-03-07",
+        "weather": "rain_shower",
+        "icon": 13,
+        "summary": "Temperature 54/55 °F.",
+        "predictability": 4,
+        "temperature": 54.7,
+        "temperature_min": 54.2,
+        "temperature_max": 55.1,
+        "feels_like": 52,
+        "feels_like_min": 49.7,
+        "feels_like_max": 54.2,
+        "wind_chill": 53.8,
+        "wind_chill_min": 53.3,
+        "wind_chill_max": 54.2,
+        "dew_point": 41.6,
+        "dew_point_min": 40.3,
+        "dew_point_max": 42.5,
+        "wind": {
+          "speed": 6.2,
+          "gusts": 14.4,
+          "dir": "WNW",
+          "angle": 285
+        },
+        "cloud_cover": 43,
+        "pressure": 30.13,
+        "precipitation": {
+          "total": 0.01,
+          "type": "rain"
+        },
+        "probability": {
+          "precipitation": 35,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 342.08,
+        "humidity": 61,
+        "visibility": 14.86
+      },
+      {
+        "day": "2022-03-08",
+        "weather": "rain_shower",
+        "icon": 13,
+        "summary": "Temperature 52/54 °F.",
+        "predictability": 4,
+        "temperature": 53.3,
+        "temperature_min": 52.4,
+        "temperature_max": 53.8,
+        "feels_like": 47.9,
+        "feels_like_min": 47.5,
+        "feels_like_max": 48.8,
+        "wind_chill": 50.6,
+        "wind_chill_min": 50.6,
+        "wind_chill_max": 51.1,
+        "dew_point": 42.1,
+        "dew_point_min": 41.6,
+        "dew_point_max": 42.5,
+        "wind": {
+          "speed": 7.8,
+          "gusts": 16.5,
+          "dir": "WNW",
+          "angle": 298
+        },
+        "cloud_cover": 54,
+        "pressure": 30.06,
+        "precipitation": {
+          "total": 0.04,
+          "type": "rain"
+        },
+        "probability": {
+          "precipitation": 82,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 356.57,
+        "humidity": 67,
+        "visibility": 13.94
+      },
+      {
+        "day": "2022-03-09",
+        "weather": "rain_shower",
+        "icon": 13,
+        "summary": "Temperature 53/54 °F.",
+        "predictability": 4,
+        "temperature": 53.8,
+        "temperature_min": 53.3,
+        "temperature_max": 54.2,
+        "feels_like": 50.2,
+        "feels_like_min": 48.8,
+        "feels_like_max": 51.5,
+        "wind_chill": 52,
+        "wind_chill_min": 50.6,
+        "wind_chill_max": 53.3,
+        "dew_point": 42.1,
+        "dew_point_min": 41.6,
+        "dew_point_max": 42.5,
+        "wind": {
+          "speed": 7.3,
+          "gusts": 14.8,
+          "dir": "WNW",
+          "angle": 296
+        },
+        "cloud_cover": 40,
+        "pressure": 30.04,
+        "precipitation": {
+          "total": 0.06,
+          "type": "rain"
+        },
+        "probability": {
+          "precipitation": 80,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 350.83,
+        "humidity": 65,
+        "visibility": 14.45
+      },
+      {
+        "day": "2022-03-10",
+        "weather": "rain_shower",
+        "icon": 13,
+        "summary": "Temperature 52/54 °F.",
+        "predictability": 4,
+        "temperature": 52.9,
+        "temperature_min": 52,
+        "temperature_max": 53.8,
+        "feels_like": 49.3,
+        "feels_like_min": 49.3,
+        "feels_like_max": 49.3,
+        "wind_chill": 51.1,
+        "wind_chill_min": 51.1,
+        "wind_chill_max": 51.1,
+        "dew_point": 42.5,
+        "dew_point_min": 41.2,
+        "dew_point_max": 43.4,
+        "wind": {
+          "speed": 6.6,
+          "gusts": 12.3,
+          "dir": "WNW",
+          "angle": 293
+        },
+        "cloud_cover": 51,
+        "pressure": 30.12,
+        "precipitation": {
+          "total": 0.01,
+          "type": "rain"
+        },
+        "probability": {
+          "precipitation": 45,
+          "storm": 0,
+          "freeze": 0
+        },
+        "ozone": 347.11,
+        "humidity": 67,
+        "visibility": 14.64
+      }
+    ]
+  }
+}

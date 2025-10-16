@@ -76,7 +76,7 @@ const CurrentWeather = () => {
 
   return (
     <div className="flex flex-col md:flex-row">
-      <div className="border-[1px] border-solid border-[#65676b] dark:border-[#b0b3b8] rounded-2xl p-4 w-64 h-auto">
+      <div className="border border-solid border-[#65676b] dark:border-[#b0b3b8] rounded-2xl p-4 w-64 h-auto">
         <div>
           {/* Icons are stored in the public folder, so they can be accessed directly via root-relative paths. */}
           <img
@@ -91,7 +91,7 @@ const CurrentWeather = () => {
         </div>
         <div className="text-2xl mt-4">{summary}</div>
       </div>
-      <div className="border-[1px] border-solid border-[#65676b] dark:border-[#b0b3b8] rounded-2xl p-4 flex-1 h-auto md:ms-4 mt-4 md:mt-0 flex items-center justify-center flex-wrap">
+      <div className="border border-solid border-[#65676b] dark:border-[#b0b3b8] rounded-2xl p-4 flex-1 h-auto md:ms-4 mt-4 md:mt-0 flex items-center justify-center flex-wrap">
         {otherInfoWidgets.map(({id, icon, name, value, unit }) => (
           <div className="w-44" key={id}>
             <div className="p-2 m-2 flex items-center flex-col">
