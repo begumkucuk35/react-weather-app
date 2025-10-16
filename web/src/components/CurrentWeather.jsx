@@ -1,5 +1,6 @@
-import React from "react";
 import { getCurrentWeather } from "../api";
+import { BsDroplet, BsWind, BsMoisture, BsSunglasses, BsCloudsFill, BsEye } from "react-icons/bs";
+import React from "react";
 
 const CurrentWeather = () => {
   const data = getCurrentWeather();
@@ -18,6 +19,61 @@ const CurrentWeather = () => {
     visibility,
     wind,
   } = data;
+
+  const otherInfoWidgets = [
+    {
+      id: 0,
+      icon: 'droplet',
+      name: 'Precipitation',
+      value: Math.round(precipitation.total),
+      unit: "in/h",
+    },
+    {
+      id: 1,
+      icon: 'wind',
+      name: 'Wind',
+      value: Math.round(wind.speed),
+      unit: "mph",
+    },
+    {
+      id: 2,
+      icon: 'moisture',
+      name: 'Humidity',
+      value: Math.round(humidity),
+      unit: "%",
+    },
+    {
+      id: 3,
+      icon: 'sunglasses',
+      name: 'UV index',
+      value: Math.round(uv_index),
+      unit: "",
+    },
+    {
+      id: 4,
+      icon: 'cloudsFill',
+      name: 'Clouds cover',
+      value: Math.round(cloud_cover),
+      unit: "%",
+    },
+    {
+      id: 5,
+      icon: 'eye',
+      name: 'Visibility',
+      value: Math.round(visibility),
+      unit: "mi",
+    },
+  ];
+
+  const iconMap = {
+    droplet: BsDroplet,
+    wind: BsWind,
+    moisture: BsMoisture,
+    sunglasses: BsSunglasses,
+    cloudsFill: BsCloudsFill,
+    eye: BsEye,
+  };
+
   return (
     <div className="flex flex-col md:flex-row">
       <div className="border-[1px] border-solid border-[#65676b] dark:border-[#b0b3b8] rounded-2xl p-4 w-64 h-auto">
@@ -35,7 +91,25 @@ const CurrentWeather = () => {
         </div>
         <div className="text-2xl mt-4">{summary}</div>
       </div>
-      <div className="border-[1px] border-solid border-[#65676b] dark:border-[#b0b3b8] rounded-2xl p-4 flex-1 h-auto ms-4"></div>
+      <div className="border-[1px] border-solid border-[#65676b] dark:border-[#b0b3b8] rounded-2xl p-4 flex-1 h-auto md:ms-4 mt-4 md:mt-0 flex items-center justify-center flex-wrap">
+        {otherInfoWidgets.map(({id, icon, name, value, unit }) => (
+          <div className="w-44" key={id}>
+            <div className="p-2 m-2 flex items-center flex-col">
+              <div className="flex text-xl mb-2 items-center">
+                <div className="me-2">
+                    {React.createElement(iconMap[icon])}
+                </div>
+                <div>
+                  {value} {unit}
+                </div>
+              </div>
+              <div>
+                {name}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
