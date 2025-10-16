@@ -1,6 +1,7 @@
 import { getCurrentWeather } from "../api";
 import { BsDroplet, BsWind, BsMoisture, BsSunglasses, BsCloudsFill, BsEye } from "react-icons/bs";
 import React from "react";
+import WeatherIcon from "./WeatherIcon";
 
 const CurrentWeather = () => {
   const data = getCurrentWeather();
@@ -78,12 +79,7 @@ const CurrentWeather = () => {
     <div className="flex flex-col md:flex-row">
       <div className="border border-solid border-[#65676b] dark:border-[#b0b3b8] rounded-2xl p-4 w-64 h-auto">
         <div>
-          {/* Icons are stored in the public folder, so they can be accessed directly via root-relative paths. */}
-          <img
-            src={`/dist/weather_icons/${icon_num}.png`}
-            alt={summary}
-            draggable={false}
-          />
+          <WeatherIcon iconNumber={icon_num} alt={summary}/>
         </div>
         <div>
           <div className="text-5xl">{temperature} C</div>
