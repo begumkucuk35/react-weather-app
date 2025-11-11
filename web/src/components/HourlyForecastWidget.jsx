@@ -1,27 +1,64 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
+import { BsSendFill } from "react-icons/bs";
 
 const HourlyForecastWidget = ({ data }) => {
   const { date, icon, summary, temperature, precipitation, wind } = data;
+
+  // date format
+  const locale = navigator.language;
+  const now_date = {
+    day: new Intl.DateTimeFormat(locale, {
+      weekday: "short",
+      day: "2-digit",
+      month: "2-digit",
+    }).format(new Date()),
+    time: new Intl.DateTimeFormat(locale, {
+      hour: "2-digit",
+      minute: "2-digit",
+    }).format(new Date().setMinutes(0)),
+  };
+  const weather_date = {
+    day: new Intl.DateTimeFormat(locale, {
+      weekday: "short",
+      day: "2-digit",
+      month: "2-digit",
+    }).format(new Date(date)),
+    time: new Intl.DateTimeFormat(locale, {
+      hour: "2-digit",
+      minute: "2-digit",
+    }).format(new Date(date).setMinutes(0)),
+  };
+
+  // If the date and time match the current one, label as "Today";
+  // if time is "00:00", show the day; otherwise, leave empty.
+  weather_date.day =
+    weather_date.day === now_date.day && weather_date.time === now_date.time
+      ? "Today"
+      : weather_date.time === "00:00"
+      ? weather_date.day
+      : "";
+
   return (
     <div className="relative cursor-pointer flex flex-col items-center p-3 me-3 min-w-28 border border-solid border-[#65676b] dark:border-[#b0b3b8] rounded-2xl">
-        <div className="absolute top-[-1.5rem]">{date}</div>
-        <div>{date}</div>
-        <div className="flex flex-col items-center my-3">
-            <div>
-                <WeatherIcon iconNumber={icon} alt={summary} className="w-10 me-1"/>
-            </div>
-            <div>
-                {Math.round(temperature)} C
-            </div>
-        </div>
+      <div className="absolute top-[-1.5rem]">{weather_date.day}</div>
+      <div>{weather_date.time}</div>
+      <div className="flex flex-col items-center my-3">
         <div>
-            {Math.round(precipitation.total)} mm/h
+          <WeatherIcon iconNumber={icon} alt={summary} className="w-10 me-1" />
         </div>
-        <div className="mt-1 flex">
-            <div className="me-1">{Math.round(wind.speed)} mph</div>
-            {/* <div className="text-sm ms-1"></div> */}
+        <div>{Math.round(temperature)} C</div>
+      </div>
+      <div>{Math.round(precipitation.total)} mm/h</div>
+      <div className="mt-1 flex">
+        <div className="me-1">{Math.round(wind.speed)} mph</div>
+        <div
+          className="text-sm ms-1 flex items-center"
+          style={{ transform: `rotate(${-45 + wind.angle}deg)` }}
+        >
+          <BsSendFill />
         </div>
+      </div>
     </div>
   );
 };
