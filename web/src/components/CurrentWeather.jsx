@@ -1,12 +1,8 @@
-import { getCurrentWeather } from "../api";
 import { BsDroplet, BsWind, BsMoisture, BsSunglasses, BsCloudsFill, BsEye } from "react-icons/bs";
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
 
-const CurrentWeather = () => {
-  const data = getCurrentWeather();
-  console.log(data);
-
+const CurrentWeather = ({ data }) => {
   // object destructuring
   const {
     cloud_cover,
