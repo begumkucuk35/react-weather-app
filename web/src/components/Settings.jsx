@@ -44,7 +44,7 @@ const Setting = () => {
         {isSettingsOpen ? <BsGearFill /> : <BsGear />}
       </div>
       <div
-        className={`absolute z-2 top-17 right-8 rounded-lg bg-white dark:bg-[#242526] w-64 p-2 select-none transition-all duration-200 ease-in-out ${
+        className={`absolute z-2 top-16 right-8 rounded-lg bg-white dark:bg-[#242526] w-64 p-2 select-none transition-all duration-200 ease-in-out ${
           isSettingsOpen ? "scale-100 visible" : "scale-[0.1] invisible"
         }`}
       >
