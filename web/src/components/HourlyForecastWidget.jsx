@@ -1,9 +1,11 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
 import { BsSendFill } from "react-icons/bs";
+import { useWeatherContext } from "../context/weather.context";
 
 const HourlyForecastWidget = ({ data }) => {
   const { date, icon, summary, temperature, precipitation, wind } = data;
+  const { units } = useWeatherContext();
 
   // date format
   const locale = navigator.language;
@@ -41,17 +43,17 @@ const HourlyForecastWidget = ({ data }) => {
 
   return (
     <div className="relative cursor-pointer flex flex-col items-center p-3 me-3 min-w-28 border border-solid border-[#65676b] dark:border-[#b0b3b8] rounded-2xl">
-      <div className="absolute top-[-1.5rem]">{weather_date.day}</div>
+      <div className="absolute -top-6">{weather_date.day}</div>
       <div>{weather_date.time}</div>
       <div className="flex flex-col items-center my-3">
         <div>
           <WeatherIcon iconNumber={icon} alt={summary} className="w-10 me-1" />
         </div>
-        <div>{Math.round(temperature)} C</div>
+        <div>{Math.round(temperature)} {units.temperature}</div>
       </div>
-      <div>{Math.round(precipitation.total)} mm/h</div>
+      <div>{Math.round(precipitation.total)} {units.precipitation}</div>
       <div className="mt-1 flex">
-        <div className="me-1">{Math.round(wind.speed)} mph</div>
+        <div className="me-1">{Math.round(wind.speed)} {units.wind_speed}</div>
         <div
           className="text-sm ms-1 flex items-center"
           style={{ transform: `rotate(${-45 + wind.angle}deg)` }}

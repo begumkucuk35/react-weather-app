@@ -1,3 +1,4 @@
+import { useWeatherContext } from "../context/weather.context";
 import WeatherIcon from "./WeatherIcon";
 
 const DailyForecastWidget = ({ data }) => {
@@ -9,6 +10,7 @@ const DailyForecastWidget = ({ data }) => {
     temperature_min,
     precipitation,
   } = data;
+  const { units } = useWeatherContext();
 
   // date format
   const locale = navigator.language;
@@ -33,15 +35,21 @@ const DailyForecastWidget = ({ data }) => {
 
   return (
     <div className="relative cursor-pointer flex flex-col items-center p-3 me-3 min-w-28 border border-solid border-[#65676b] dark:border-[#b0b3b8] rounded-2xl">
-      <div className="absolute top-[-1.5rem]">{weather_date.day}</div>
+      <div className="absolute -top-6">{weather_date.day}</div>
       <div className="flex flex-col items-center my-3">
         <div>
           <WeatherIcon iconNumber={icon} alt={summary} className="w-10 me-1" />
         </div>
-        <div>{Math.round(temperature_max)} C</div>
-        <div>{Math.round(temperature_min)} C</div>
+        <div>
+          {Math.round(temperature_max)} {units.temperature}
+        </div>
+        <div>
+          {Math.round(temperature_min)} {units.temperature}
+        </div>
       </div>
-      <div>{Math.round(precipitation.total)} mm/h</div>
+      <div>
+        {Math.round(precipitation.total)} {units.precipitation}
+      </div>
     </div>
   );
 };
