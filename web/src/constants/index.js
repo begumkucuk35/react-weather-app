@@ -9,3 +9,11 @@ export const DEFAULT_PLACE = {
   timezone: "Europe/London",
   type: "settlement",
 };
+
+export const MEASUREMENT_SYSTEMS = {
+  AUTO: "auto",
+  METRIC: "metric",
+  UK: "uk",
+  US: "us",
+  CA: "ca",
+};
