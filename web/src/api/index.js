@@ -1,5 +1,7 @@
 import axios from "axios";
 
+const API_KEY = import.meta.env.VITE_API_KEY;
+
 export async function getWeatherData(endpoint, place_id, measurementSystem) {
   const options = {
     method: "GET",
@@ -10,7 +12,7 @@ export async function getWeatherData(endpoint, place_id, measurementSystem) {
       units: measurementSystem,
     },
     headers: {
-      "x-rapidapi-key": "8f5946a5f3msh12f7fd01941fb5fp1e3114jsnc103000462de",
+      "x-rapidapi-key": API_KEY,
       "x-rapidapi-host": "ai-weather-by-meteosource.p.rapidapi.com",
     },
   };
@@ -32,7 +34,7 @@ export async function searchPlaces(text) {
       language: 'en',
     },
     headers: {
-      "x-rapidapi-key": "8f5946a5f3msh12f7fd01941fb5fp1e3114jsnc103000462de",
+      "x-rapidapi-key": API_KEY,
       'x-rapidapi-host': 'ai-weather-by-meteosource.p.rapidapi.com',
     },
   };

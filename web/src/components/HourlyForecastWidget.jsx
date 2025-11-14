@@ -32,11 +32,11 @@ const HourlyForecastWidget = ({ data }) => {
     }).format(new Date(date).setMinutes(0)),
   };
 
-  // If the date and time match the current one, label as "Today";
+  // If the date and time match the current one, label as "Now";
   // if time is "00:00", show the day; otherwise, leave empty.
   weather_date.day =
     weather_date.day === now_date.day && weather_date.time === now_date.time
-      ? "Today"
+      ? "Now"
       : weather_date.time === "00:00"
       ? weather_date.day
       : "";
